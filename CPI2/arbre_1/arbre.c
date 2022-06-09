@@ -62,7 +62,7 @@ int appartient(int elt, arbre a)
         }
         else
         {
-            return ((appartient(elt, a -> fGauche) || (appartient(elt, a -> fDroite));
+            return ((appartient(elt, a -> fGauche)) || (appartient(elt, a -> fDroite)));
         }
     }
 

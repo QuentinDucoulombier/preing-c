@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun  4 20:04:59 2022
+# Make data base, printed on Thu Jun  9 18:43:03 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-5e040874-762a-45e5-8233-543a8447882a.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-71094d3a-84be-459e-bfad-9e6de6744ab9.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -73,7 +73,7 @@ PWD = /home/quentin/info/c
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/81_interop
+WSL_INTEROP = /run/WSL/8_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -85,7 +85,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = quentin
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -154,8 +154,10 @@ TERM = xterm-256color
 VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=71/1024=7%, Rehash=0, Collisions=4/93=4%
+# Load=72/1024=7%, Rehash=0, Collisions=4/94=4%
 
 # Pattern-specific Variable Values
 
@@ -221,6 +223,6 @@ GNUmakefile:
 # strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
 # Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Sat Jun  4 20:04:59 2022
+# Finished Make data base on Thu Jun  9 18:43:03 2022
 
  
