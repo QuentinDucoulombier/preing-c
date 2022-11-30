@@ -2,6 +2,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*Rajout a la mano*/
+#include <time.h>
+
 /* toutes mes signatures/prototypes de fonctions/méthodes + leur corps */
 
 int** Allouer(int lignes, int colonnes){
@@ -58,7 +61,7 @@ void Initialisation(int** tab, int lignes, int colonnes){
 void Affichage (int** tab, int lignes, int colonnes){
     for (int i = 0; i < lignes; i++)
     {
-        printf("|");
+        printf("| ");
         for (int j = 0; j < colonnes; j++)
         {
             if (tab[i][j]==-1)
@@ -97,7 +100,7 @@ int ChoixJoueur(void){
 
 
     printf("-------------------------------------\n");
-    printf("------------Debut du jeu------------\n");
+    printf("-------------Debut du jeu------------\n");
     printf("-------------------------------------\n\n");
 
     return(joueur);
@@ -244,7 +247,7 @@ int Jouer(int** plateau,int lignes,int colonnes, int joueur){
     ligneLocal = lignes-1;
 
     if (plateau[0][colonneLocal] != -1){
-        printf ("Cette colonne est pleine (tu as 3 de QI)\n");
+        printf ("Cette colonne est pleine (tu passes donc ton tour !)\n");
         chiffreRetourner = 0;
 
     }
